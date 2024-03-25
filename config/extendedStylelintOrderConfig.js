@@ -5,7 +5,7 @@ module.exports = ({
   'border-in-box-model': borderInBoxModel = false,
   'empty-line-between-groups': emptyLineBetweenGroups = false,
 } = {}) => ({
-  plugins: ['stylelint-order', path.join(__dirname, '../plugin')],
+  plugins: ['stylelint-order', path.join(__dirname, '../plugin/index.js')],
   rules: {
     'order/properties-order': [],
     'property-no-unknown': [
